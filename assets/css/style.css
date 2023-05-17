@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    background-color: beige;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.menuprincipal{
+    width: 25%;
+    height: 100vh;
+    border: solid 1px #BEC1BB;
+}
+.perfil{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px #CDC3E6;
+   padding: 6px;
+}
+.contacto{
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.foto{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.estado{
+    display: flex;
+    flex-direction: column;
+    text-size-adjust: 3px;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+}
+button{
+    padding: 10px 25px;
+    background-color: #A491D2 ;
+    color: #FFF;
+}
+p{
+    color:#828485;
+}
+.iconos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.perfilamor{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px #CDC3E6;
+    border-top: solid 1px #CDC3E6;
+    padding: 7px;
+}
+.chats{
+    display: flex;
+    justify-content: center;
+    padding-right: 20px;
+    margin-right: 20px;
+}
+.chat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menusecundario{
+    background-color: #E8EBE4;
+    width: 75%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-left: solid 1px #CDC3E6;
+}
+
+.hand{
+    height: 13rem;
+    width: 13rem;
+    border-radius: 5%;
+}
